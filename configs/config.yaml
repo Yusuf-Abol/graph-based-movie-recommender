@@ -1,0 +1,15 @@
+# Model hyperparameters
+model:
+  type: 'random_forest'
+  n_estimators: 100
+  random_state: 42
+
+# Data paths
+data:
+  raw: 'data/raw/'
+  processed: 'data/processed/'
+
+# Training
+training:
+  test_size: 0.2
+  cv_folds: 5
